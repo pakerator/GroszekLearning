@@ -3,7 +3,6 @@ public class DataCalculation {
 
     public static void showPayment(DataInput person){
         var personPayment = calculateTax(person);
-
         System.out.print("Kalkulujemy wypłatę dla : " + person.getName());
         System.out.println(" " + person.getSurname());
         System.out.println(personPayment);
